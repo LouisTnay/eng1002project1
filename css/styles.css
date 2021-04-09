@@ -1,0 +1,121 @@
+body {
+    font-family: "arial";
+}
+
+#tableInfluent {
+    display: inline;
+}
+
+#tableWaste {
+    display: none;
+}
+
+#tableEffluent {
+    display: none;
+}
+
+.tab {
+    overflow: hidden;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: #ffffff;
+  }
+
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: #ffffff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+
+  .tabOutput {
+      font-family: 'arial';
+      background-color: #f1f1f1;
+  }
+  
+  /* Style the tab content */
+  .tabOutput table {
+    background-color: inherit;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .tabOutput table td {
+    border: 1px solid black;
+    padding: 10px 12px;
+  }
+
+  .tabOutput table th {
+    border: 1px solid black;
+    padding: 10px 12px;
+  }
+
+  .tabOutput table input {
+    padding: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #buttonInfluent {
+    background-color: #ccc;
+    border-right: 1px solid black;
+  }
+
+  #buttonEffluent {
+      border-right: 1px solid black;
+      border-left: 1px solid black;
+  }
+
+  #filterImg {
+      height: 18em;
+  }
+
+  #calculator {
+      width: 65%;
+  }
+
+  #imgDiv {
+      float: right;
+      width: 35%;
+      height: inherit;
+  }
+
+  #imgWrapper {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 0;
+      height: inherit;
+  }
+
+  #section1 {
+      height: 40%;
+  }
+
+  hr {
+      border-bottom: none;
+      border-left: none;
+      border-right: none;
+      border-top: 1px solid black;
+  }
+
+  p {
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+
+  #credits {
+      text-align: center;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      color: grey
+  }
